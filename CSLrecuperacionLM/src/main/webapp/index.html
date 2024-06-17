@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Juego del Ahorcado</title>
+</head>
+<body>
+
+<button onclick="introducirPalabra()">Introducir palabra</button>
+
+<p id="intento">Intentos: 0</p>
+
+<button onclick="tiempo()">Tiempo</button>
+
+<div id="palabra">Palabra: </div>
+
+<button onclick="introducirLetra()">Letra</button>
+
+<p>Historial</p>
+
+<table>
+    <tr>
+        <td><b>Palabra</b></td>
+        <td><b>Intentos</b></td>
+        <td><b>Tiempo</b></td>
+    </tr>
+    <tbody id="tabla">
+    </tbody>     
+</table>
+
+<script src="js.js"></script>
+
+</body>
+</html>
